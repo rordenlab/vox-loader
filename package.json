@@ -1,0 +1,41 @@
+{
+  "name": "@niivue/tiff-loader",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/lib/loader.js"
+    }
+  },
+  "files": [
+    "src/lib/loader.js"
+  ],
+  "keywords": [
+    "nii",
+    "tiff",
+    "loader",
+    "tif",
+    "niivue"
+  ],
+  "author": "NiiVue developers",
+  "license": "BSD-2-Clause",
+  "description": "A tiff image loader to be used with the NiiVue useLoader method",
+  "scripts": {
+    "cli": "node ./src/tiff2nii.js ./tests/testData/shapes_deflate.tif",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "pretty": "prettier --write \"**/*.js\""
+  },
+  "dependencies": {
+    "vox-reader": "^3.0.0",
+    "nifti-reader-js": "^0.6.8"
+  },
+  "devDependencies": {
+    "@niivue/niivue": "^0.49.0",
+    "vite": "^6.0.5",
+    "vitest": "^2.1.8"
+  }
+}
