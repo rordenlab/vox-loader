@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "vox-reader": "^3.0.0",
-    "nifti-reader-js": "^0.6.8"
+    "nifti-reader-js": "^0.7.0"
   },
   "devDependencies": {
     "@niivue/niivue": "^0.49.0",
