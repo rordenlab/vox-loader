@@ -1,5 +1,5 @@
 {
-  "name": "@niivue/tiff-loader",
+  "name": "@niivue/vox-loader",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -13,16 +13,16 @@
   ],
   "keywords": [
     "nii",
-    "tiff",
+    "vox",
     "loader",
-    "tif",
+    "MagicaVoxel",
     "niivue"
   ],
   "author": "NiiVue developers",
   "license": "BSD-2-Clause",
-  "description": "A tiff image loader to be used with the NiiVue useLoader method",
+  "description": "A MagicaVoxel vox image loader to be used with the NiiVue useLoader method",
   "scripts": {
-    "cli": "node ./src/tiff2nii.js ./tests/testData/shapes_deflate.tif",
+    "cli": "node ./src/vox2nii.js ./tests/testData/monu1.vox",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
